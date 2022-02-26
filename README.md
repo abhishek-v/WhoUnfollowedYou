@@ -11,5 +11,6 @@
 - Install the InstagramAPI:
   ```pip3 install InstagramAPI```
 - Add your username and password on line 33 (WARNING: Make sure you default this value back if you are going to share the script with anyone)
+- Execute the script: ```python3 user_followers.py``` (Note that on the initial run, the unfollowers list will be empty)
 - Uncomment the block of code on lines 50-57 for the initial run. This creates a pickle file which will be used for comparisons on subsequent runs.
 - For subsequent runs, ensure the block of code on lines 50-57 is commented out.
