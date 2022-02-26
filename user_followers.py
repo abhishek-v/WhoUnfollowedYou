@@ -1,10 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# Use text editor to edit the script and type in valid Instagram username/password
+# Script used to find who unfollowed you on instagram.
 
 from InstagramAPI import InstagramAPI
 import pickle
+
+__author__ = "Abhishek Vasudevan"
+__version__ = "1.0.0"
+__email__ = "abhishekvasudevan@gmail.com"
 
 def getTotalFollowers(api, user_id):
     """
@@ -30,7 +34,7 @@ if __name__ == "__main__":
     ##
     ## WARNING: IF SHARING THE CODE, REMEMBER TO REMOVE YOUR PASSWORD HERE
     ##
-    api = InstagramAPI("_abhishekvasudevan", "PASSWORD_GOES_HERE")
+    api = InstagramAPI("USERNAME_GOES_HERE", "PASSWORD_GOES_HERE")
     api.login()
 
     user_id = api.username_id
